@@ -1,0 +1,59 @@
+.table-container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.274);
+    background-color: rgb(38, 222, 246);
+    border-radius: 10px;
+  }
+  .table {
+    margin: 1.5rem;
+    width: 80%;
+    color: rgb(0, 0, 0);
+  }
+  .table th {
+    text-align: left;
+  }
+  th {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+  }
+  td {
+    border-top: 1px solid rgba(0, 0, 0, 0.096);
+    padding: 0.7rem 0;
+  }
+  
+  .table .center {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  caption {
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  }
+  .pages-container {
+    display: flex;
+    list-style: none;
+  }
+  
+  .page-item {
+    padding: 0.5rem;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.205);
+    margin-right: 0.25rem;
+  }
+  
+  .page-item:hover {
+    background-color: rgba(0, 0, 0, 0.329);
+    color: white;
+  }
+  
+  .page-item.active {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+  }

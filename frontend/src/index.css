@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: capitalize;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:none
+}
+ul li{
+  list-style: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.ant-input{
+  width: 100% !important;
+}
+/* .ant-input{
+  border: hidden;
+}
+.ant-input:focus{
+  border: hidden;
+} */
+#password{border:hidden}
+#password:focus{
+  border:hidden !important
+}
+
+[value="Successfully"] {
+  color: rgb(224, 4, 4) !important;
+}
+[value="Canceled"] {
+  color: cyan !important;
+}
+[value="Processing"] {
+  color: rgb(167, 6, 167) !important;
+}
+[value="Confirmed"] {
+  color: lawngreen !important;
+}
+.online {
+  color: blue;
+}
+
+body > iframe[style*="2147483647"]:not([id="webpack-dev-server-client-overlay"]) { display: none; }
+body > iframe[style*="2147483647"]:not([id="webpack-dev-server-client-overlay"]) { display: none; }
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.col-md-7.site-section-heading.text-center.pt-4 {
+  margin: 0 auto;
+}
